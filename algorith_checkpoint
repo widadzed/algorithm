@@ -1,0 +1,21 @@
+ALGORITHM analyze
+VAR
+sentence_length = 0 (to count the number of characters)
+word_count = 0 (to count the number of words)
+vowel_count = 0 (to count the number of vowels)
+i= = integer;
+
+BEGIN
+FOR i FROM 1 TO 100 STEP step 1 DO
+while (i!=".") do 
+sentence_length = sentence_length + 1 ;
+if ( i " ") then  word_count = word_count +1 ;
+else if i = (a, e, i, o, or u) then vowel_count = vowel_count + 1 ;
+end while;
+end if ; 
+end if ;
+end FOR:
+word_count = word_count +1; 
+END;
+
+
